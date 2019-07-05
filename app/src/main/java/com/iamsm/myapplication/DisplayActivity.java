@@ -24,6 +24,6 @@ public class DisplayActivity extends AppCompatActivity {
         MyAdapter myAdapter=new MyAdapter(studentRealmResults,this);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
         mRecyclerView.setAdapter(myAdapter);
-
+        //Hello Test
     }
 }
