@@ -58,7 +58,6 @@ public class MainActivity extends AppCompatActivity {
     public  void onDisplayPressed(View v)
     {
         Intent intent = new Intent(this,DisplayActivity.class);
-        Toast.makeText(mContext, "Going to display", Toast.LENGTH_SHORT).show();
         startActivity(intent);
     }
 }
