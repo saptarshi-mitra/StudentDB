@@ -42,9 +42,9 @@ public class MainActivity extends AppCompatActivity {
             student.setRoll(Integer.parseInt(roll.getText().toString()));
             student.setPhone(phone.getText().toString());
             if(s.isChecked())
-                student.setGender("FEMALE");
+                student.setGender("Female");
             else
-                student.setGender("MALE");
+                student.setGender("Male");
             realm.commitTransaction();
             Toast.makeText(mContext, "Success", Toast.LENGTH_SHORT).show();
         }
